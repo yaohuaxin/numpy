@@ -219,7 +219,7 @@ rk_randomseed(rk_state *state)
  * Note that regardless of the precision of long, only 32 bit random
  * integers are produced
  */
-unsigned long
+NPY_INLINE unsigned long
 rk_random(rk_state *state)
 {
     unsigned long y;
